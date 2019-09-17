@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <h2 align="center"><font color="#9966FF">free regristasi</font></h2>
+    <form action="proses.php" method="POST" name="form">
+        <table width="68%" border="0" align="center" cellpadding="0">
+            <tr>
+                <td width="15%">nama</td>
+                <td width="2%">:</td>
+                <td width="83%"><input nama="txtnama" type="text" id="textnama"></td>
+            </tr>
+            <tr>
+                <td >Tgl lahir</td>
+                <td >:</td>
+                <td ><input nama="txttgl" type="text" id="texttgl" size="4" maxlength="2">
+                    /
+                    <input nama="txtbulan" type="text" id="textbulan" size="4" maxlength="2">
+                    /
+                    <input nama="txttahun" type="text" id="texttahun" size="8" maxlength="4">
+                </td>
+            </tr>
+            <tr>
+                    <td >alamat</td>
+                    <td >&nbsp;</td>
+                    <td ><textarea name="txtalamat" cols="40" rows="2" id="txtalamat"></textarea></td>
+            </tr>
+            <tr>
+                    <td >kota</td>
+                    <td >:</td>
+                    <td ><input name="txtkota" type="text" id="textkota"></td>
+            </tr>
+            <tr>
+                    <td >kerjaan</td>
+                    <td >:</td>
+                    <td ><select name="sbojob" type="text" id="cbojob">
+                        <option>tani</option>
+                        <option>nelayan</option>
+                        <option>karyawan</option>
+                    </td>
+            </tr>
+            <tr>
+                    <td >jenis kelamin</td>
+                    <td >:</td>
+                    <td ><input name="radjk" type="radio" id="radjk" value="1" checked> Laki laki
+                        <input name="radjk" type="radio" id="radjk" value="2"> perempuan
+                    </td>
+            </tr>
+            <tr>
+                    <td >hobby</td>
+                    <td >:</td>
+                    <td ><input name="ceksport" type="checkbox" id="ceksport" value="1" > sport </td>        
+            </tr>
+            <tr>
+                    <td >&nbsp;</td>
+                    <td >&nbsp;</td>
+                    <td ><input name="cekreading" type="checkbox" id="cekreading" value="2" > reading </td>        
+            </tr>
+            <tr>
+                    <td >&nbsp;</td>
+                    <td >&nbsp;</td>
+                    <td ><input name="ceksing" type="checkbox" id="ceksing" value="3" > sing </td>        
+            </tr>
+            <tr>
+                    <td >&nbsp;</td>
+                    <td >&nbsp;</td>
+                    <td ><input name="cektravel" type="checkbox" id="cektravel" value="4" > travel </td>        
+            </tr>
+            <tr>
+                    <td >&nbsp;</td>
+                    <td >&nbsp;</td>
+                    <td ><input name="btnkirim" type="submit" id="btnkirim" value="kirim" > <input name="btncancel" type="reset" id="btncancel" value="cancel" >  </td>        
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
